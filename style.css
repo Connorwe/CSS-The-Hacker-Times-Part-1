@@ -17,10 +17,13 @@ h1 {
 nav {
     list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: -5px;
 	text-align: center;
-    border-top: dotted lightgrey;
-    border-bottom: dotted lightgrey;
+    border-top: solid lightgrey;
+    border-bottom: solid lightgrey;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 li {
     display: inline-block;
